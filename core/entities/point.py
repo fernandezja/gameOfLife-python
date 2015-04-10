@@ -6,7 +6,7 @@ class Point():
         self.y = y
 
     def toString(self):
-        return 'Point(x={0}, y={0})'.format(self.x, self.y)
+        return 'Point(x={0}, y={0})'.format(self.x, self.y) 
 
     def isANeighbour(self, point):
         return ((point.x == self.x + 1) or (point.x == self.x) or (point.x < self.x - 1)) and ((point.y == self.y + 1 ) or (point.y == self.y) or (point.y == self.y - 1 ))
